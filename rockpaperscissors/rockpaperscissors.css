@@ -1,0 +1,117 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background-color:white;
+}
+
+header{
+background: black;
+padding:20px;
+}
+
+header>h1{
+color:White;
+text-align: center;
+font-family:georgia;
+}
+
+.score-board{
+margin:20px auto;
+border:3px solid black;
+border-radius: 10px;
+text-align:center;
+width:200px;
+color:black;
+font-size: 46px;
+padding: 15px 20px;
+font-family: times-new-roman;
+position:relative;
+}
+
+.badge{
+background:brown;10px;
+Color:white;
+font-size:14px;
+padding:2px 10px;
+}
+
+#user-label{
+position:absolute;
+top:30px;
+left:-25px;
+}
+
+#computer-label{
+position:absolute;
+top:30px;
+right:-40px;
+}
+
+.result{
+font-size:40px;
+}
+
+.result>p{
+text-align:center;
+font-family:times-new-roman;
+font-weight: bold;
+}
+
+.choices{
+margin-top:50px 0px;
+text-align:center;
+}
+
+.choice{
+display:inline-block;
+border:3px solid black;
+border-radius:2px;
+padding:10px;
+margin:0 20px;
+transition: all 1m ease;
+}
+
+.choice:hover{
+cursor:pointer;
+background:white;
+}
+
+#action-message{
+text-align:center;
+font-weight:bold;
+font-size:20px;
+font-family:georgia;
+margin-top:20px;
+}
+
+.green-glow{
+border:4px solid #4dcc7d;
+box-shadow:0 0 10px #31b43a;
+}
+
+.red-glow{
+border:4px solid #fc121b;
+box-shadow:0 0 10px #d01115;
+}
+
+.grey-glow{
+border:4px solid #464647;
+box-shadow:0 0 10px #25292b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
